@@ -1,0 +1,6 @@
+commit: HEAD
+process_files: [ChangaOne-Regular.ttf.ttx, ChangaOne-Italic.ttf.ttx, src/ChangaOne-Regular.otf.ttx,
+  src/ChangaOne-Italic.otf.ttx, src/ChangaOne-Regular-TTF.sfd, src/ChangaOne-Italic-TTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
